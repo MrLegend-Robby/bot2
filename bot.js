@@ -28,10 +28,17 @@ bott.on('guildMemberAdd', member => {
 
 
 bott.on('message',(message) => {
+  if(message.content == "q1") {
+    message.channel.send("**Значение какого из данных ниже выражений является наибольшем?**            1. √30   2. 2√8   3. 6   4. √8 * √2 ");
+  }
+});
+
+bott.on('message',(message) => {
   if(message.content == "1+1") {
     message.channel.send("2");
   }
 });
+
 
  
 bott.on('message', (message) => {
