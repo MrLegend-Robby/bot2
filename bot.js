@@ -66,4 +66,4 @@ bott.on('message', (message) => {
     }
 });
  
-process.env.NDQwNDQ0NTY3NTMyMDc3MDU2.DdA_cA.mjjCaoiGkgW5Thi83iaDPASWgIc
+process.env.TOKEN
