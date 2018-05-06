@@ -28,8 +28,8 @@ bott.on('guildMemberAdd', member => {
 
 
 bott.on('message',(message) => {
-  if(message.content == "Dogy") {
-    message.channel.send("<a:null:393771434880663553>");
+  if(message.content == "1+1") {
+    message.channel.send("2");
   }
 });
 
