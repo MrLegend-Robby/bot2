@@ -6,7 +6,7 @@ const prefix = '*';
 const colors = ['92ce14', '4bd588', '4bd5b9', 'd54b76', '00edff', '0077ff', 'f2ff00', 'cbd073', 'd09573', 'f2070b',];
 function color () {
   colors.forEach(function (item, number) {
-      setTimeout(function () {bott.guilds.get('432926249006923806').roles.get('441148168730574858').setColor(item).catch();if(number === colors.length-1) setTimeout(function () {color()}, 200)}, number*200);
+      setTimeout(function () {bott.guilds.get('432926249006923806').roles.get('441148168730574858').setColor(item).catch();if(number === colors.length-1) setTimeout(function () {color()}, 1000)}, number*1000);
   });
 }
  
