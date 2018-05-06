@@ -17,8 +17,8 @@ color ();
 });
 
 bott.on('message',(message) => {
-  if(message.content == "Артём") {
-    message.reply("да, мы все знаем, Артём наше золотко! Молодец, так держать Артём!!");
+  if(message.content == "Привет") {
+    message.reply("пока");
   }
 });
 
