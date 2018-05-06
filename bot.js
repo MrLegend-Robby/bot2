@@ -24,7 +24,7 @@ bott.on('message',(message) => {
 
 bott.on('message',(message) => {
   if(message.content == "Dogy") {
-    message.channel.send(":d_:");
+    message.channel.send("<a:null:393771434880663553>");
   }
 });
 
