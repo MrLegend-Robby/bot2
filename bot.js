@@ -23,11 +23,10 @@ bott.on('message',(message) => {
 });
 
 bott.on('message',(message) => {
-  if(message.content == "*help") {
-    message.reply("Отсутствует");
+  if(message.content == "1") {
+    message.channel.send("2");
   }
 });
-
  
 bott.on('message', (message) => {
     if (message.content.startsWith('embed')) {
@@ -67,4 +66,4 @@ bott.on('message', (message) => {
     }
 });
  
-bott.login('NDQwNDQ0NTY3NTMyMDc3MDU2.Dc8dWA.z0J0cwVgnBxzxL55mpTVr4efIdw')
+process.env.NDQwNDQ0NTY3NTMyMDc3MDU2.Dc8dWA.z0J0cwVgnBxzxL55mpTVr4efId
