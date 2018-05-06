@@ -16,6 +16,10 @@ bott.on('ready', () => {
 color ();
 });
 
+bott.on('guildMemberAdd', member => {
+  client.channels.get('441695408511647744').send(`Новый гражданин был зарегисрирован. Под именем ${member}! Первое что ты должен сделать, пойти к #джон, удачи!`)
+  });
+
 bott.on('message',(message) => {
   if(message.content == "Привет") {
     message.reply("пока");
