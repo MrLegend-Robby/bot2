@@ -23,8 +23,8 @@ bott.on('message',(message) => {
 });
 
 bott.on('message',(message) => {
-  if(message.content == "1") {
-    message.channel.send("2");
+  if(message.content == "Dogy") {
+    message.channel.send(":d_:");
   }
 });
 
