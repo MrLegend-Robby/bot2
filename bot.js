@@ -28,11 +28,6 @@ bott.on('message',(message) => {
   }
 });
 
-bott.on('message',(message) => {
-  if(message.content == "Hey ${player.user.tag}, Прибывает в штат.") {
-    message.channel.send("2");
-  }
-});
  
 bott.on('message', (message) => {
     if (message.content.startsWith('embed')) {
