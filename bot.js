@@ -12,7 +12,7 @@ function color () {
  
 bott.on('ready', () => {
   console.log(`Logged in as ${bott.user.tag}!`);
-  bott.user.setPresence({ game: { name: `на создателя`, type: 3 } }).catch();
+  bott.user.setPresence({ game: { name: `на Зиммера`, type: 3 } }).catch();
 color ();
 });
 
@@ -24,6 +24,12 @@ bott.on('message',(message) => {
 
 bott.on('message',(message) => {
   if(message.content == "1") {
+    message.channel.send("2");
+  }
+});
+
+bott.on('message',(message) => {
+  if(message.content == "Hey ${player.user.tag}, Прибывает в штат.") {
     message.channel.send("2");
   }
 });
