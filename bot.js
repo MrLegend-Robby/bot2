@@ -34,6 +34,13 @@ bott.on('message',(message) => {
 });
 
 bott.on('message',(message) => {
+  if(message.content == "Да") {
+    message.channel.send("**Блять, кого же ответ?? А хуй его знает, точно! Головка от хуя**");
+  }
+});
+
+
+bott.on('message',(message) => {
   if(message.content == "1+1") {
     message.channel.send("2");
   }
