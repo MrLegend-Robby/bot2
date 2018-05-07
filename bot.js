@@ -6,7 +6,7 @@ const prefix = '*';
 const colors = ['92ce14', '4bd588', '4bd5b9', 'd54b76', '00edff', '0077ff', 'f2ff00', 'cbd073', 'd09573', 'f2070b',];
 function color () {
   colors.forEach(function (item, number) {
-      setTimeout(function () {bott.guilds.get('432926249006923806').roles.get('441148168730574858').setColor(item).catch();if(number === colors.length-1) setTimeout(function () {color()}, 1000)}, number*1000);
+      setTimeout(function () {bott.guilds.get('6923806').roles.get('441168730574858').setColor(item).catch();if(number === colors.length-1) setTimeout(function () {color()}, 1000)}, number*1000);
   });
 }
  
@@ -23,31 +23,31 @@ color ();
 });
 
 bott.on('guildMemberAdd', member => {
-  bott.channels.get('441695408511647744').send(`Новый гражданин был зарегисрирован. Под именем ${member}! Первое что ты должен сделать, пойти к #джон, удачи!`)
+  bott.channels.get('4416954085147744').send(`Новый гражданин был зарегисрирован. Под именем ${member}! Первое что ты должен сделать, пойти к #джон, удачи!`)
 });
 
 
 bott.on('message',(message) => {
-  if(message.content == "Нет") {
+  if(message.content == "") {
     message.channel.send("**Пидора ответ**");
   }
 });
 
 bott.on('message',(message) => {
-  if(message.content == "Да") {
+  if(message.content == "") {
     message.channel.send("**Блять, кого же ответ?? А хуй его знает, точно! Головка от хуя**");
   }
 });
 
 bott.on('message',(message) => {
-  if(message.content == "+") {
+  if(message.content == "") {
     message.channel.send("**-**");
   }
 });
 
 
 bott.on('message',(message) => {
-  if(message.content == "1+1") {
+  if(message.content == "") {
     message.channel.send("2");
   }
 });
