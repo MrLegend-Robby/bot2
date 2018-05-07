@@ -53,12 +53,22 @@ bott.on('message',(message) => {
 
 bott.on('message',(message) => {
   if(message.content == "") {
-    message.channel.send("2");
+    message.channel.send("п");
   }
 });
 
-
+bott.on('message',(message) => {
+  if(message.content == "Привет") {
+    message.reply("**приветульки!)**");
+  }
+});
  
+bott.on('message',(message) => {
+  if(message.content == "привет") {
+    message.reply("**приветульки!)**");
+  }
+});
+
 bott.on('message', (message) => {
     if (message.content.startsWith('embed')) {
         let text = message.content.slice('embed'.length).trim().split(/\n/g);
