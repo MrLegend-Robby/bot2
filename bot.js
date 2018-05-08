@@ -47,7 +47,7 @@ bott.on('message',(message) => {
 
 bott.on('message',(message) => {
   if(message.content == "") {
-    message.channel.send("****");
+    message.channel.send("");
   }
 });
 
