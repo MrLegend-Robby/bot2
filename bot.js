@@ -29,19 +29,19 @@ bott.on('guildMemberAdd', member => {
 
 bott.on('message',(message) => {
   if(message.content == "Нет") {
-    message.channel.send("**Пидора ответ**");
+    message.channel.send("");
   }
 });
 
 bott.on('message',(message) => {
   if(message.content == "Да") {
-    message.channel.send("**Головка от хуя**");
+    message.channel.send("");
   }
 });
 
 bott.on('message',(message) => {
   if(message.content == "") {
-    message.channel.send("****");
+    message.channel.send("");
   }
 });
 
