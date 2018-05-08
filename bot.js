@@ -40,13 +40,13 @@ bott.on('message',(message) => {
 });
 
 bott.on('message',(message) => {
-  if(message.content == "+") {
+  if(message.content == "") {
     message.channel.send("**-**");
   }
 });
 
 bott.on('message',(message) => {
-  if(message.content == "-") {
+  if(message.content == "-=") {
     message.channel.send("**+**");
   }
 });
