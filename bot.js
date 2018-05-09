@@ -65,7 +65,7 @@ bott.on('message',(message) => {
  
 bott.on('message',(message) => {
   if(message.content == "привет") {
-    message.reply("**приветульки!)**");
+    message.reply("**приветульки!))**");
   }
 });
 
