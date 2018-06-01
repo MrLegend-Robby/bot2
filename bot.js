@@ -17,8 +17,8 @@ color ();
 });
 
   bott.on('message',(message) => {
-  if(message.content == "q") {
-    message.reply("1");
+  if(message.content == "") {
+    message.reply("");
   }
 });
 
