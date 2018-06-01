@@ -12,7 +12,7 @@ function color () {
  
 bott.on('ready', () => {
   console.log(`Logged in as ${bott.user.tag}!`);
-  bott.user.setPresence({ game: { name: `на Зиммера`, type: 3 } }).catch();
+  bott.user.setPresence({ game: { name: `на Демона`, type: 3 } }).catch();
 color ();
 });
 
