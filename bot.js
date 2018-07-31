@@ -107,4 +107,4 @@ bott.on('message', (message) => {
     }
 });
  
-bott.login(process.env.TOKEN)
+bott.login(process.env.TOKLol)
