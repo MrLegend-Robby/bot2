@@ -28,31 +28,31 @@ bott.on('guildMemberAdd', member => {
 
 
 bott.on('message',(message) => {
-  if(message.content == "Нет") {
+  if(message.content == "д") {
     message.channel.send("");
   }
 });
 
 bott.on('message',(message) => {
-  if(message.content == "Да") {
+  if(message.content == "д") {
+    message.channel.send("д");
+  }
+});
+
+bott.on('message',(message) => {
+  if(message.content == "д") {
     message.channel.send("");
   }
 });
 
 bott.on('message',(message) => {
-  if(message.content == "") {
+  if(message.content == "д") {
     message.channel.send("");
   }
 });
 
 bott.on('message',(message) => {
-  if(message.content == "") {
-    message.channel.send("");
-  }
-});
-
-bott.on('message',(message) => {
-  if(message.content == "") {
+  if(message.content == "д") {
     message.channel.send("");
   }
 });
@@ -64,8 +64,8 @@ bott.on('message',(message) => {
 });
  
 bott.on('message',(message) => {
-  if(message.content == "привет") {
-    message.reply("**приветульки!)**");
+  if(message.content == "д") {
+    message.reply("д");
   }
 });
 
