@@ -70,8 +70,6 @@ bott.on('message',(message) => {
   }
 });
 
-name:"botinfo"
-}
 
 bott.on('message', (message) => {
     if (message.content.startsWith('embed')) {
