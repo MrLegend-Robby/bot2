@@ -1,6 +1,7 @@
 const Discord = require("discord.js");
 const bott = new Discord.Client();
 const prefix = '*';
+const errors = require("../utils/errors.js");
 
 
 const colors = ['92ce14', '4bd588', '4bd5b9', 'd54b76', '00edff', '0077ff', 'f2ff00', 'cbd073', 'd09573', 'f2070b',];
@@ -73,7 +74,7 @@ module.exports.run = async (bot, message, args) => {
   message.delete();
   if(!message.member.hasPermission("BAN_MEMBERS")) return errors.noPerms(message, "BAN_MEMBERS");
   if(args[0] == "help"){
-    message.reply("Usage: !ban <user> <reason>");
+    message.reply("Usage: *ban <user> <reason>");
     return;
   }
   let bUser = message.guild.member(message.mentions.users.first() || message.guild.members.get(args[0]));
